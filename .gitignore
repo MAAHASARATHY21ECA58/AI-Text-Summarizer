@@ -1,7 +1,42 @@
+# Python virtual environments
 venv/
+.env
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Misc
 .DS_Store
+.cursorignore
